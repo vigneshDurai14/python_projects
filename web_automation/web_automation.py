@@ -94,6 +94,8 @@ class Test(multi):
 
 D = Test()
 
+print('1 - open google search \n2 - open new tab \n3 - gmail login \n4 - gmail logout \n 5 - facebook login \n6 - facebook logout \n7 youtube search \n8 close the broswer ')
+
 while True:
         try:
             result = int(input("enter an integer :"))
@@ -115,5 +117,5 @@ while True:
                 D.close_broswer()
                 break
         except:
-            print("you have a string or wrong, please the integer from 1 to 8. ")
+            print("you have enter a string or wrong number, please the integer from 1 to 8. ")
             pass
